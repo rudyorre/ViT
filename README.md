@@ -33,24 +33,22 @@ model = ViT(
 
 ## Arguments
 
-- image_size (int): the height/weight of the input image.
-- patch_size (int): image patch size. In the ViT paper, this value is 16.
-- num_classes (int): Number of image classes for MLP prediction head.
-- dim (int): patch and position embedding dimension.
-- depth (int): number of stacked transformer blocks.
-- heads (int): number of attention heads.
-- mlp_dim (int): inner dimension for MLP in transformer blocks.
-- pool (str): choice between "cls" and "mean".For cls, you will need to use the cls token for perdictionFor mean, you will need to take the mean of last transformer output
-- For cls, you will need to use the cls token for perdiction
-- For mean, you will need to take the mean of last transformer output
-- channels (int): Input image channels. Set to 3 for RGB image.
-- dim_head (int): dimension of each attention head
-- dropout (float): dropout rate for transformer blocks.
-- emb_dropout (float): dropout rate for patch embedding.
+- `image_size` (int): the height/weight of the input image.
+- `patch_size` (int): image patch size. In the ViT paper, this value is 16.
+- `num_classes` (int): Number of image classes for MLP prediction head.
+- `dim` (int): patch and position embedding dimension.
+- `depth` (int): number of stacked transformer blocks.
+- `heads` (int): number of attention heads.
+- `mlp_dim` (int): inner dimension for MLP in transformer blocks.
+- `pool` (str): choice between `cls` and `mean`.
+- `channels` (int): Input image channels. Set to 3 for RGB image.
+- `dim_head` (int): dimension of each attention head
+- `dropout` (float): dropout rate for transformer blocks.
+- `emb_dropout` (float): dropout rate for patch embedding.
 
 ## Methods
 
-- forward(img): Passes the input tensor 'img' through the ViT model to get the output tensor.
+- `forward(img)`: Passes the input tensor 'img' through the ViT model to get the output tensor.
 
 ## Acknowledgements
 
