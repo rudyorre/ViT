@@ -12,7 +12,7 @@ The ViT is a transformer-based model for image classification, which achieved co
 ## Usage
 
 ```python
-from ViT import ViT
+from vit import ViT
 
 model = ViT(
     image_size=224,
