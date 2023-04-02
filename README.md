@@ -1,4 +1,6 @@
-<img src='./funny.png' />
+<p align="center">
+<img src='./funny.png' height="300px"/>
+</p>
 
 # ViT: Vision Transformer
 
