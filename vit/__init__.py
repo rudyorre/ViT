@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-from layers import Tokenization_layer, Transformer
+from vit.layers import Tokenization_layer, Transformer
+from einops import repeat
 
 # helper method
 def pair(t):
