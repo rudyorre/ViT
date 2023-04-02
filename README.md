@@ -1,8 +1,12 @@
+<img src='./funny.png' />
+
 # ViT: Vision Transformer
 
 This is an implementation of the Vision Transformer (ViT) in Pytorch.
 
 The ViT is a transformer-based model for image classification, which achieved competitive performance on image classification benchmarks like ImageNet. It processes an input image as a sequence of patches and then feeds these patches to a transformer-based network.
+
+The above image is a misclassification, however the model was able to reach a 70% accuracy on the validation set only after 20 epochs with a 300 image batch size from a [cat vs dog dataset](https://www.kaggle.com/competitions/dogs-vs-cats-redux-kernels-edition).
 
 ## Requirements
 
